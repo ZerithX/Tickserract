@@ -52,7 +52,7 @@ Pastikan kamu sudah menginstal beberapa *tools* berikut di mesin lokalmu:
 
 Proyek ini menggunakan arsitektur *Monorepo* dengan Bun Workspaces.
 
-\`\`\`text
+```text
 ├── apps/
 │   ├── be/                      # Hono Backend Services
 │   │   ├── src/
@@ -86,7 +86,7 @@ Proyek ini menggunakan arsitektur *Monorepo* dengan Bun Workspaces.
 ├── bun.lockb
 ├── package.json                  # Root workspace config
 └── README.md
-\`\`\`
+```
 
 ## 📝 Commit Standard
 Proyek ini mengikuti spesifikasi Conventional Commits untuk pesan komit pada pengembangan fitur maupun perbaikan *bug*.
