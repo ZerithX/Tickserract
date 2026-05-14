@@ -1,0 +1,17 @@
+{
+  "name": "tickserract",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "bun --filter \"*\" dev",
+    "db:push": "bun --filter \"be\" db:push",
+    "db:generate": "bun --filter \"be\" db:generate",
+    "db:studio": "bun --filter \"be\" db:studio"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
