@@ -3,11 +3,13 @@
   "type": "module",
   "scripts": {
     "dev": "bun --hot src/index.ts",
+    "test": "bun test",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@tickserract/shared": "workspace:*",
     "drizzle-orm": "^0.33.0",
     "hono": "^4.6.1",
     "postgres": "^3.4.4",
