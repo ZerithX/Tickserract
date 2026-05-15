@@ -5,13 +5,14 @@ const app = new Hono()
 
 app.use('*', logger())
 
-app.get('/', (c) => {
+const routes = app.get('/', (c) => {
   return c.json({
-    message: 'Welcome to TicketFlow API',
+    message: 'Welcome to Tickserract API',
     status: 'healthy'
   })
 })
 
+export type AppType = typeof routes
 export default {
   port: 8080,
   fetch: app.fetch,
